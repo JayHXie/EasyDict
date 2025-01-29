@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="?attr/colorSurfaceContainer"
+        app:cardCornerRadius="@dimen/card_view_radius_medium"
+        app:cardElevation="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/tv_list_mean"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_weight="1"
+                android:id="@+id/tv_list_word"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="@dimen/text_size_medium"
+                android:autoSizeMaxTextSize="@dimen/text_size_medium"
+                android:autoSizeMinTextSize="@dimen/text_size_extra_tiny"
+                android:autoSizeTextType="uniform"
+                android:padding="10dp"
+                android:text="@string/def_str"
+                android:textColor="?attr/colorOnSurface"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingEnd="33dp"
+                android:paddingStart="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="?attr/colorSurfaceVariant"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tv_list_word"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_weight="3"
+                android:gravity="center_vertical"
+                android:id="@+id/tv_list_mean"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:textSize="@dimen/text_size_medium"
+                android:maxLines="6"
+                android:text="@string/def_str"
+                android:textColor="?attr/colorOnSurfaceVariant" />
+
+            <ImageView
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginEnd="6dp"
+                android:id="@+id/iv_list_search"
+                app:layout_constraintEnd_toEndOf="@id/tv_list_mean"
+                app:layout_constraintBottom_toBottomOf="@id/tv_list_mean"
+                app:layout_constraintTop_toTopOf="@id/tv_list_mean"
+                android:background="@drawable/bg_ripple_r12"
+                android:src="@drawable/ic_search"
+                android:padding="3dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+            <View
+                android:background="?attr/colorSurfaceVariant"
+                android:id="@+id/v_mean_shade"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintEnd_toEndOf="@id/tv_list_mean"
+                app:layout_constraintStart_toStartOf="@id/tv_list_mean"
+                app:layout_constraintTop_toTopOf="@id/tv_list_mean"
+                app:layout_constraintBottom_toBottomOf="@id/tv_list_mean"
+                app:layout_constraintHorizontal_weight="3"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

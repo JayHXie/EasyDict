@@ -1,0 +1,11 @@
+<resources>
+    <style name="ThemeOverlay.MaterialDodgerBlue" parent="ThemeOverlay.Dark.MaterialDodgerBlue"/>
+    <style name="ThemeOverlay.MaterialSakuraPink" parent="ThemeOverlay.Dark.MaterialSakuraPink"/>
+    <style name="ThemeOverlay.MaterialAmberGold" parent="ThemeOverlay.Dark.MaterialAmberGold"/>
+    <style name="ThemeOverlay.MaterialPeruBrown" parent="ThemeOverlay.Dark.MaterialPeruBrown"/>
+    <style name="ThemeOverlay.MaterialVioletPurple" parent="ThemeOverlay.Dark.MaterialVioletPurple"/>
+    <style name="ThemeOverlay.MaterialTealGreen" parent="ThemeOverlay.Dark.MaterialTealGreen"/>
+    <style name="ThemeOverlay.MaterialHawthornRed" parent="ThemeOverlay.Dark.MaterialHawthornRed"/>
+    <style name="ThemeOverlay.MaterialLimeGreen" parent="ThemeOverlay.Dark.MaterialLimeGreen"/>
+    <style name="ThemeOverlay.MaterialSkyBlue" parent="ThemeOverlay.Dark.MaterialSkyBlue"/>
+</resources>

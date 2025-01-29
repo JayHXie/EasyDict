@@ -1,0 +1,55 @@
+<resources>
+    <declare-styleable name="AppWidgetAttrs">
+        <attr name="appWidgetPadding" format="dimension" />
+        <attr name="appWidgetInnerRadius" format="dimension" />
+        <attr name="appWidgetRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="limitedMaxLines" format="integer" />
+        <attr name="originalText" format="string" />
+        <attr name="expandAction" format="string" />
+        <attr name="expandActionColor" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="LoadingView">
+        <attr name="loadingViewProgressBarSize" format="dimension" />
+        <attr name="loadingViewProgressBarColor" format="color" />
+        <attr name="loadingViewHintText" format="string" />
+        <attr name="loadingViewHintTextColor" format="color" />
+        <attr name="loadingViewHintTextSize" format="dimension" />
+        <attr name="showLoadingViewHintText" format="boolean" />
+        <attr name="showLoadingViewProgressBar" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="LoadFailedView">
+        <attr name="loadFailedViewHintDrawable" format="reference" />
+        <attr name="loadFailedViewHintDrawableSize" format="dimension" />
+        <attr name="loadFailedViewHintText" format="string" />
+        <attr name="loadFailedViewHintTextColor" format="color" />
+        <attr name="loadFailedViewHintTextSize" format="dimension" />
+        <attr name="showLoadFailedViewHintText" format="boolean" />
+        <attr name="showLoadFailedViewHintDrawable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="AlignTextView">
+        <attr name="alignOnlyOneLine" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MaxHeightRecyclerView">
+        <attr name="maxHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="AndRatingBar">
+        <attr name="starColor" format="color|reference" />
+        <attr name="subStarColor" format="color|reference" />
+        <attr name="bgColor" format="color|reference" />
+        <attr name="starDrawable" format="reference" />
+        <attr name="bgDrawable" format="reference" />
+        <attr name="keepOriginColor" format="boolean" />
+        <attr name="scaleFactor" format="float" />
+        <attr name="starSpacing" format="dimension" />
+        <attr name="right2Left" format="boolean" />
+    </declare-styleable>
+
+</resources>
